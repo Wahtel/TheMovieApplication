@@ -1,6 +1,6 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-class Loader extends React.Component {
+class Loader extends Component {
     constructor(props) {
         super(props);
     }

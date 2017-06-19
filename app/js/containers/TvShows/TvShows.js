@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {hashHistory, Link} from 'react-router';
 import {connect} from 'react-redux';
 import * as TvShowActions from '../../actions/tvShowActions';
@@ -15,7 +15,7 @@ import TvShowsList from '../../components/TvShows/TvShowsList';
     }
 })
 
-class TvShows extends React.Component {
+class TvShows extends Component {
     constructor(props) {
         super(props);
 

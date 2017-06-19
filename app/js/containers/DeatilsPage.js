@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import * as DetailsPageActions from '../actions/detailsPageActions';
 import RateComponent from '../components/RateComponent';
@@ -11,7 +11,7 @@ import Loader from '../components/Loader';
     }
 })
 
-class CurrentMovie extends React.Component {
+class CurrentMovie extends Component {
     constructor(props) {
         super(props);
     }

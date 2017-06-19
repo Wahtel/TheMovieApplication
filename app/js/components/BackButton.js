@@ -1,8 +1,8 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {hashHistory} from 'react-router';
 
 
-class BackButton extends React.Component {
+class BackButton extends Component {
     constructor(props) {
         super(props);
     }

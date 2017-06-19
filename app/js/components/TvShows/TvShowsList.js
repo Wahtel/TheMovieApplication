@@ -1,9 +1,9 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {Link} from 'react-router';
 import RateComponent from '../RateComponent';
 import Loader from '../Loader';
 
-class TvShowsList extends React.Component {
+class TvShowsList extends Component {
     constructor(props) {
         super(props);
     }
